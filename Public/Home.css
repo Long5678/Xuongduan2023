@@ -11,7 +11,7 @@ body{
     background-color: aliceblue;
 }
 .nav{
-    background-color: black;
+    background-color: rgb(133, 133, 133);
     border-radius: 4px;
     position: relative;
 }
@@ -20,7 +20,6 @@ body{
     display: flex;
     list-style-type: none;
     right: 30%;
-   
 }
 .nav .nav-ul img{
     width: 100px;
@@ -111,4 +110,185 @@ body{
 .buttons button:hover{
     background-color: antiquewhite;
 }
+
+/* Product All---------------------------------------------------- */
+
+.Product-All {
+    min-height: 70px;
+    margin-top: 10px;
+}
+
+.Product-All a {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 100px;
+    padding: 50px 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.Product-All a:hover {
+    text-decoration: underline;
+}
+
+/* Product new  ------------------------------------*/
+.Product-News {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
+    padding: 0 4%;
+}
+
+.Product-News .item-procdut {
+        margin: 20px;
+        text-align: center;
+        background-color: #e5e7eb;
+        border-radius: 5px;
+}
+
+.Product-News .item-procdut img{
+    max-width: 70%;
+    min-height: 145px;
+    padding: 15px 0 0 0;
+    border-radius: 7px;
+}
+
+.Product-News .item-procdut h4{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -0%;
+    padding: 7px; 
+}
+.Product-News .item-procdut p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 10px;
+}
+
+.Product-News .item-procdut button {
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border: none;
+    background-color: #f0d7d7;
+    border-radius: 20px;
+}
+.Product-News .item-procdut button:hover {
+    cursor: pointer;
+    background: #000000;
+    font-weight: 700;
+    color: #ffffff;
+    transition: all 0.2s ease-in; 
+}
+
+/* Product nam ----------------------------------*/
+.Product-Nam {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
+    padding: 0 4%;
+}
+
+.Product-Nam .item-procdut {
+        margin: 20px;
+        text-align: center;
+        background-color: #e5e7eb;
+        border-radius: 5px;
+}
+
+.Product-Nam .item-procdut img{
+    max-width: 70%;
+    min-height: 145px;
+    padding: 15px 0 0 0;
+    border-radius: 7px;
+}
+
+.Product-Nam .item-procdut h4{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -0%;
+    padding: 7px; 
+}
+.Product-Nam .item-procdut p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 10px;
+}
+
+.Product-Nam .item-procdut button {
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border: none;
+    background-color: #f0d7d7;
+    border-radius: 20px;
+}
+.Product-Nam .item-procdut button:hover {
+    cursor: pointer;
+    background: #000000;
+    font-weight: 700;
+    color: #ffffff;
+    transition: all 0.2s ease-in; 
+}
+
+/* Produc nữ -----------------------------------*/
+
+.Product-Nu {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
+    padding: 0 4%;
+}
+
+.Product-Nu .item-procdut {
+        margin: 20px;
+        text-align: center;
+        background-color: #e5e7eb;
+        border-radius: 5px;
+}
+
+.Product-Nu .item-procdut img{
+    max-width: 70%;
+    min-height: 145px;
+    padding: 15px 0 0 0;
+    border-radius: 7px;
+}
+
+.Product-Nu .item-procdut h4{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -0%;
+    padding: 7px; 
+}
+.Product-Nu .item-procdut p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 10px;
+}
+
+.Product-Nu .item-procdut button {
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border: none;
+    background-color: #f0d7d7;
+    border-radius: 20px;
+}
+.Product-Nu .item-procdut button:hover {
+    cursor: pointer;
+    background: #000000;
+    font-weight: 700;
+    color: #ffffff;
+    transition: all 0.2s ease-in; 
+}
+
+
+
+
+
+
+
+
+
+
 
