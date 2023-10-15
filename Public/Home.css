@@ -281,6 +281,76 @@ body{
     color: #ffffff;
     transition: all 0.2s ease-in; 
 }
+/* Footer -----------------------*/
+img{
+    width: 150px;
+}
+.footer{
+    margin-top: 1rem ;
+    background-color: rgb(133,133,133);
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+ a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    line-height: 2.8rem;
+}
+#box{
+    padding-top: 2rem;
+}
+/* phần đầu  */
+.contair .first-part {
+    display: flex;
+
+}
+.contair .first-part h2{
+    margin-top: 30px;
+    font-size: 2rem;
+    font-style: italic;
+    color: aqua;
+}
+.contair .hosn {
+    margin-left: 6rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    line-height: 2.8rem;
+}
+/* .contair .hosn a  :hover{
+    color: #000000;
+} */
+
+/* phần giữa */
+
+.contair .box-pay h3{
+    font-size: 1.3rem;
+}
+.contair .box-pay img{
+    width: 50px;
+    padding :1rem;
+}
+.contair .box-monitor h3 {
+    font-size: 1.3rem;
+}
+.contair .box-monitor a{
+    padding: 2rem;
+    font-size: 2rem;
+}
+.contair .box-monitor a :hover{
+    color : red;
+}
+/* phần cuối */
+.contair h3{
+    font-size: 1.3rem;
+}
+.contair span {
+    font-size: 1rem;
+}
 
 
 
