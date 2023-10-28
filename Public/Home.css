@@ -341,8 +341,17 @@ img{
     padding: 2rem;
     font-size: 2rem;
 }
-.contair .box-monitor a :hover{
+.contair .box-monitor a .logo-youtube:hover{
     color : red;
+}
+.contair .box-monitor a .logo-facebook:hover{
+    color : #4267b2;
+}
+.contair .box-monitor a .logo-instagram:hover{
+    color : #E95950;
+}
+.contair .box-monitor a .logo-twitter:hover{
+    color : #1DA1F2;
 }
 /* phần cuối */
 .contair h3{
