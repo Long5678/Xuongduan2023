@@ -175,7 +175,7 @@ body{
 }
 .Product-News .item-procdut button:hover {
     cursor: pointer;
-    background: #000000;
+    background: #FF6969;
     font-weight: 700;
     color: #ffffff;
     transition: all 0.2s ease-in; 
@@ -225,7 +225,7 @@ body{
 }
 .Product-Nam .item-procdut button:hover {
     cursor: pointer;
-    background: #000000;
+    background: #FF6969;
     font-weight: 700;
     color: #ffffff;
     transition: all 0.2s ease-in; 
@@ -276,7 +276,7 @@ body{
 }
 .Product-Nu .item-procdut button:hover {
     cursor: pointer;
-    background: #000000;
+    background: #FF6969;
     font-weight: 700;
     color: #ffffff;
     transition: all 0.2s ease-in; 
